@@ -13,7 +13,7 @@ using System.Text;
 namespace Authenticator.Controllers
 {
     [ApiController]
-    [Route("api/[area]/AuthPerson")]
+    [Route("api/[controller]/AuthPerson")]
     public class UsersController : ControllerBase
     {
         private readonly IAuthRepository _repo;
